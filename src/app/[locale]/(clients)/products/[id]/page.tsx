@@ -43,7 +43,7 @@ export const generateMetadata = async ({
 			: `Подробные характеристики и описание ${product.name}. Продажа и интеграция в Узбекистане.`;
 
 	return {
-		title: `${product.name} — купить в Узбекистане | CooperAI`,
+		title: `${product.name} — купить в Узбекистане | ROBOGEN AI`,
 		description,
 
 		keywords: [
@@ -51,7 +51,7 @@ export const generateMetadata = async ({
 			`${product.name} цена`,
 			`${product.name} купить`,
 			`${product.name} характеристики`,
-			"CooperAI",
+			"ROBOGEN AI",
 			"PUDU",
 			"Unitree",
 			"роботы для бизнеса",
@@ -67,7 +67,7 @@ export const generateMetadata = async ({
 			url: productUrl,
 			title: product.name,
 			description,
-			siteName: "CooperAI",
+			siteName: "ROBOGEN AI",
 			images: product.images?.length
 				? product.images.map((img) => ({
 						url: `${baseUrl}${typeof img === "string" ? img : img.src}`,

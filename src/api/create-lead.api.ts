@@ -1,3 +1,4 @@
+import { ENV } from "@/configs/env.config";
 import type { LeadSchemaType } from "@/schemas/lead.schema";
 import type { CartItem } from "@/stores/cart.store";
 
@@ -40,7 +41,7 @@ export const createLeadApi = async ({ body, items = [], type }: Params) => {
 	}
 
 	try {
-		const response = await fetch("https://api.it911.uz/leads/", {
+		const response = await fetch(`${ENV.API_URL}/leads`, {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
@@ -49,7 +50,7 @@ export const createLeadApi = async ({ body, items = [], type }: Params) => {
 				full_name: body.full_name,
 				email: body.email,
 				phone: body.phone,
-				company_name: "Cooper AI",
+				company_name: "ROBOGEN AI",
 				company_info,
 			}),
 		});

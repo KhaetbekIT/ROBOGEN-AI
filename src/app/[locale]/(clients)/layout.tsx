@@ -1,4 +1,3 @@
-import { GoogleTagManager } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
@@ -15,16 +14,16 @@ export const metadata: Metadata = {
 	metadataBase: new URL(ENV.BASE_URL),
 
 	title: {
-		default: "CooperAI — Роботы Unitree и PUDU в Узбекистане",
-		template: "%s | CooperAI",
+		default: "ROBOGEN AI — Роботы Unitree и PUDU в Узбекистане",
+		template: "%s | ROBOGEN AI",
 	},
 
 	description:
-		` CooperAI — официальный поставщик роботов Unitree и PUDU в Узбекистане. Продажа, интеграция, сервис и обучение. Каталог: ${productNames.join(", ")}.
+		` ROBOGEN AI — официальный поставщик роботов Unitree и PUDU в Узбекистане. Продажа, интеграция, сервис и обучение. Каталог: ${productNames.join(", ")}.
 	`.trim(),
 
 	keywords: [
-		"CooperAI",
+		"ROBOGEN AI",
 		"роботы Узбекистан",
 		"роботы Ташкент",
 		"промышленные роботы",
@@ -57,9 +56,9 @@ export const metadata: Metadata = {
 		"sanoat robotlari",
 	],
 
-	authors: [{ name: "CooperAI" }],
-	creator: "CooperAI",
-	publisher: "CooperAI",
+	authors: [{ name: "ROBOGEN AI" }],
+	creator: "ROBOGEN AI",
+	publisher: "ROBOGEN AI",
 
 	icons: {
 		icon: "/favicon.ico",
@@ -71,24 +70,24 @@ export const metadata: Metadata = {
 		type: "website",
 		locale: "ru_RU",
 		url: ENV.BASE_URL,
-		siteName: "CooperAI",
-		title: "CooperAI — Роботы Unitree и PUDU",
+		siteName: "ROBOGEN AI",
+		title: "ROBOGEN AI — Роботы Unitree и PUDU",
 		description:
-			` Официальный каталог роботов Unitree и PUDU в Узбекистане. Модели: ${productNames.join(", ")}. Продажа, интеграция и сервис.
+			`Официальный каталог роботов Unitree и PUDU в Узбекистане. Модели: ${productNames.join(", ")}. Продажа, интеграция и сервис.
 		`.trim(),
 		images: [
 			{
 				url: "/og-image.png",
 				width: 1200,
 				height: 630,
-				alt: "CooperAI Robots",
+				alt: "ROBOGEN AI Robots",
 			},
 		],
 	},
 
 	twitter: {
 		card: "summary_large_image",
-		title: "CooperAI — Роботы Unitree и PUDU",
+		title: "ROBOGEN AI — Роботы Unitree и PUDU",
 		description: `Каталог роботов: ${productNames.join(", ")}`,
 		images: ["/og-image.png"],
 	},
@@ -120,11 +119,10 @@ const ClientLayout = async ({ children }: LayoutProps<"/[locale]">) => {
 					sizes="180x180"
 					href="/apple-touch-icon.png"
 				/>
-				<meta name="apple-mobile-web-app-title" content="CooperAI" />
+				<meta name="apple-mobile-web-app-title" content="ROBOGEN AI" />
 				<link rel="manifest" href="/site.webmanifest" />
 			</head>
 			<body className="min-h-screen flex flex-col justify-between">
-				<GoogleTagManager gtmId="GTM-NDZBTPDJ" />
 
 				<noscript>
 					<iframe

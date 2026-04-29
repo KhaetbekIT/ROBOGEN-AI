@@ -1,6 +1,6 @@
 "use client";
 
-import LogoImage from "@public/logo.svg";
+import LogoImage from "@public/logo.png";
 import { Menu, Phone, X } from "lucide-react";
 import Image from "next/image";
 import { type ComponentProps, useEffect, useState } from "react";
@@ -54,10 +54,10 @@ export const HeaderLayout = ({
 
 								<Group className="gap-0">
 									<Link
-										href="tel:+998917753010"
+										href="tel:+998977530109"
 										className="text-md font-medium hover:text-red-01"
 									>
-										+998 (91) 775-30-10
+										+998 (97) 753-01-09
 									</Link>
 
 									<Group className="flex-row items-center gap-1.5">

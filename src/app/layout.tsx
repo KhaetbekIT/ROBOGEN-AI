@@ -4,8 +4,8 @@ import type { LayoutProps } from "@/types/type";
 
 export const metadata: Metadata = {
 	title: {
-		default: "Cooper Premium",
-		template: "%s |Cooper AI",
+		default: "ROBOGEN AI ",
+		template: "%s | ROBOGEN AI",
 	},
 };
 

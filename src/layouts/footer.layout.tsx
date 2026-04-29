@@ -100,7 +100,7 @@ export const Footer = ({ className, ...props }: ComponentProps<"footer">) => {
 			<div className="border-t border-gray-200">
 				<div className="max-w-7xl mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-500">
 					<span>
-						&copy; {new Date().getFullYear()} CooperAI. Все права защищены.
+						&copy; {new Date().getFullYear()} ROBOGEN AI. Все права защищены.
 					</span>
 					<span className="opacity-70">
 						Роботы для бизнеса и промышленности

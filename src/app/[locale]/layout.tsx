@@ -9,7 +9,7 @@ export const generateStaticParams = () => {
 };
 
 export const metadata: Metadata = {
-	title: "Cooper AI",
+	title: "ROBOGEN AI",
 };
 
 const LocaleLayout = async ({ children, params }: LayoutProps<"/[locale]">) => {

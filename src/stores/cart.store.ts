@@ -40,7 +40,7 @@ export const useCartStore = create<CartStoreType>()(
 			clear: () => set({ items: [] }),
 		}),
 		{
-			name: "cooperai-cart",
+			name: "robogen-ai-cart",
 		},
 	),
 );
